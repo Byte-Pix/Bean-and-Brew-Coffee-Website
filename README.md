@@ -1,3 +1,7 @@
+# THIS WEBSITE IS A WORK IN PROGRESS. MANY FUNCTIONS ARE BROKEN.
+
+---
+
 # Bean and Brew Website
 Welcome to Bean and Brew. This is a personal website to mimic what a real cafe website might look light.
 This website I made for fun. I am not affiliated with any real cafe place.
@@ -22,3 +26,6 @@ Now lower your expectations, because the reason why I'm doing a cafe website is 
 
 ## Why did you call it Bean and Brew?
 Also lower your expectations for this because... I just asked by friend to give me two coffee related words starting with the same letter. No seriously, that's it. No meticulously engineered and well crafted name. It's just random. =D
+
+## Why does some links (e.g. TOS, social media links, etc) not lead anywhere?
+I'm just making this website for the fun of making a website. There isn't suppose to be a proper link to a proper business, so currently it's left blank as a placebolder.
