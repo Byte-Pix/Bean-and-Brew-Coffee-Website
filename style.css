@@ -1,7 +1,235 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: sans-serif;
     color: black;
     background-color: white;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 45px;
+    padding-left: 20px;
+}
+/* debug */
+/* h1,h2,p,ul,li,img,iframe{
+    border: 1px solid black;
+} */
+#nav {
+    width: 100%;
+    background-color: #472D30;
+    float: left;
+}
+.search {
+    padding: 10px;
+}
+.search input {
+    padding: 10px;
+    width: 200px;
+    font-size: 10pt;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid rgb(68, 68, 68);
+}
+.logo a {
+    padding: 9px 16px !important; /*arigato w3schools https://www.w3schools.com/css/css_important.asp*/
+}
+.logo img {
+    display: block;
+    height: 40px;
+    width: auto;
+}
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+#nav li {
+    float: left;
+}
+#nav li a{
+    display: block;
+    color: white;
+    padding-block: 20px;
+    padding-inline: 16px;
+    text-decoration: none;
+}
+#nav li a:hover{
+    background-color: #111;
+}
+#nav li a.active {
+    background-color: #04AA6d;
+}
+#title{
+    color: #ffffff;
+    width: 100%;
+    height: 800px;
+    background-color: rgb(255, 69, 69);
+    float: left;
+    text-align: center;
+    align-content: center;
+    padding-block: 20px;
+    background-image: url(images/cafe-layout.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#title h1 {
+    font-size: 125px;
+}
+#title h2 {
+    font-size: 40px;
+}
+#about{
+    width: 100%;
+    background-color: #FFE1A8;
+    float: left;
+}
+#about p {
+    padding-inline: 40px;
+    overflow: hidden;
+    font-size: 30px;
+    padding-left: 20px;
+}
+#about img{
+    width: 300px;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+#location {
+    width: 70%;
+    background-color: #6E8898;
+    float: left;
+    height: 530px;
+    overflow: hidden;
+}
+#location iframe{
+    padding-left: 10px;
+    padding-bottom: 21px;
+    height: 400px;
+    width: 500px;
+    float: left;
+}
+#location #sideofmap{
+    float: left;
+    height: auto;
+}
+#location #sideofmap p, ul {
+    padding-left: 50px;
+    font-size: 20px;
+}
+#reserve{
+    width: 30%;
+    background-color: rgb(90, 160, 76);
+    height: 530px;
+    float: right;
+    align-content: center;
+    overflow: hidden;
+}
+#reserve h1{
+    margin: auto;
+    text-align: center;
+    margin: 10px;
+    padding-top: 50px;
+}
+#reserve #info{
+    margin: auto;
+    text-align: center;
+    margin: 10px;
+}
+#reserve input{
+    padding: 10px;
+    width: auto;
+    font-size: 14pt;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid rgb(68, 68, 68);
+}
+#reserve button {
+    padding: 10px;
+    width: 250px;
+    font-size: 10pt;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid rgb(68, 68, 68);
+}
+#gallery{
+    text-align: center;
+    width: 100%;
+    background-color: rgb(72, 145, 255);
+    height: 475px;
+    float: left;
+}
+#gallery img {
+    padding-inline: 30px;
+}
+#contact{
+    width: 100%;
+    background-color: rgb(230, 225, 168);
+    float: left;
+    height: 200;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+#contactdetail {
+    width: 75%;
+    float: left;
+    height: 100;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+#contactsocials{
+    width: 25%;
+    float: right;
+    height: 100;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+#contactsocials a, p {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+#footer {
+    width: 100%;
+    background-color: rgb(62, 124, 67);
+    padding-block: 10px;
+    clear: both;
+}
+#footer p {
+    padding-inline: 20px;
+}
+#footer a{
+    display: inline;
+    color: white;
+    padding-block: 20px;
+    padding-inline: 16px;
+    text-decoration: none;
+}
+#footer a:hover{
+    background-color: #111;
+}
+
+
+
+
+
+
+
+
+
+/* origignal might be broken */
+/* body {
+    font-family: sans-serif;
+    color: black;
+    background-color: white;
+    margin: 0;
+    padding: 0;
 }
 
 #title{
@@ -11,7 +239,7 @@ body {
 }
 #about{
     width: 100%;
-    background-color: rgb(127, 206, 157);
+    background-color: rgb(75, 117, 91);
     float: left;
 }
 #about img{
@@ -22,6 +250,27 @@ body {
     background-color: rgb(90, 160, 76);
     height: 500px;
     float: right;
+}
+#reserve h1{
+    background-color: rgb(111, 182, 97);
+    margin: auto;
+    text-align: center;
+    margin: 10px;
+    padding-top: 50px;
+}
+#reserve #info{
+    background-color: rgb(111, 182, 97);
+    margin: auto;
+    text-align: center;
+    margin: 10px;
+}
+#reserve input{
+    padding: 10px;
+    width: 300px;
+    font-size: 14pt;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid rgb(68, 68, 68);
 }
 #location {
     width: 70%;
@@ -37,28 +286,42 @@ body {
     float: left;
 }
 #location #sideofmap{
-    background-color: rgb(89, 214, 146);
+    background-color: aqua;
     float: left;
     height: auto;
     padding-left: 30px;
 
 }
-#method{
-    width: 70%;
+#gallery{
+    width: 100%;
     background-color: rgb(72, 145, 255);
     height: 300px;
     float: left;
 }
 #contact{
-    width: 100%;
+    width: 50%;
     background-color: rgb(255, 241, 49);
     float: left;
+    height: 200;
+}
+#contactsocials{
+    width: 50%;
+    background-color: rgb(177, 171, 86);
+    float: left;
+    height: 200;
 }
 
 #nav {
     width: 100%;
     background-color: #424242;
     overflow: hidden;
+    align-items: center;
+}
+#navimg {
+    padding-left: 10px;
+    background-color: red;
+    float: left;
+    flex-shrink: 0;
 }
 #nav ul {
     list-style-type: none;
@@ -68,9 +331,7 @@ body {
     background-color: #333;
     display: flex;
     justify-content: center;
-}
-#nav li{
-    float: left;
+    flex: 1;
 }
 #nav li a{
     display: block;
@@ -85,6 +346,20 @@ body {
 #nav li a.active {
     background-color: #04AA6d;
 }
+
+#footer {
+    width: 100%;
+    background-color: rgb(62, 95, 65);
+    clear: both;
+} */
+
+
+
+
+
+
+
+
 
 
 
