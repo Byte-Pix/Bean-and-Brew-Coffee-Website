@@ -1,4 +1,4 @@
-# THIS WEBSITE IS A WORK IN PROGRESS. MANY FUNCTIONS ARE BROKEN.
+# THIS WEBSITE IS CURRENTLY FUNCTIONABLE. SOME FEATURES ARE A WORK IN PROGRESS
 
 ---
 
@@ -28,4 +28,4 @@ Now lower your expectations, because the reason why I'm doing a cafe website is 
 Also lower your expectations for this because... I just asked by friend to give me two coffee related words starting with the same letter. No seriously, that's it. No meticulously engineered and well crafted name. It's just random. =D
 
 ## Why does some links (e.g. TOS, social media links, etc) not lead anywhere?
-I'm just making this website for the fun of making a website. There isn't suppose to be a proper link to a proper business, so currently it's left blank as a placebolder.
+I'm just making this website for the fun of making a website. There isn't suppose to be a proper link to a proper business, so currently it's left blank as a placebolder and the social media pages goes to starbucks.
